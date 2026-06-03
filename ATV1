@@ -1,0 +1,8 @@
+let id = Number(prompt("Digite sua idade"))
+
+if(id < 18){
+    alert ("Não pode dirigir")
+}
+else{
+    alert("Pode dirigir")
+}
