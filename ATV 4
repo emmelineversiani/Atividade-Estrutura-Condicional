@@ -1,0 +1,8 @@
+let num = Number(prompt("Digite um número"))
+let soma = num + 10
+  
+    if (soma >= 0) {
+        alert(`O número ${num} somado com 10 é positivo`)
+    }
+    else {
+        alert(`o número ${num} somado com 10 é negativo`)}
