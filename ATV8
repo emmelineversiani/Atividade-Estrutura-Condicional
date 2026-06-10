@@ -1,0 +1,8 @@
+let num1 = Number(prompt("Digite a nota do aluno"))
+
+if(num1 < 7){
+    alert("Aluno reprovado.")
+}
+else {
+    alert("Aluno aprovado")
+}
