@@ -1,0 +1,30 @@
+let n1 = Number(prompt("Digite o primeiro número"))
+let n2 = Number(prompt("Digite o segundo número"))
+let opc = Number(prompt("Qual operação você deseja fazer? 1 - Soma 2 - Subtração 3 - Multiplicação 4 - Divisão"))
+
+switch (opc){
+
+    case 1:
+        let soma = n1 + n2
+        alert(`A soma dos números ${n1} e ${n2} é ${soma}`)
+        break
+
+    case 2:
+        let subtracao = n1 - n2
+        alert(`A subtração dos números ${n1} e ${n2} é ${subtracao}`)
+        break
+
+    case 3:
+        let multiplicacao = n1 * n2
+        alert(`A multiplicação dos números ${n1} e ${n2} é ${multiplicacao}`)
+        break
+
+     case 4:
+        let divisao = n1 / n2
+        alert(`A divisão entre ${n1} e ${n2} é ${divisao}`)
+        break
+
+    default:
+        alert("Selecione uma opção válida")
+        break
+}
